@@ -38,10 +38,10 @@ namespace AccessFromOtherPage
 
         private void MessagePage_Loaded(object sender, RoutedEventArgs e)
         {
-            var list = new List<string>() { "ms-appx:///Assets/img.png",
-                "ms-appx:///Assets/img.png" ,
-                "ms-appx:///Assets/img.png" ,
-                "ms-appx:///Assets/img.png" };
+            var list = new List<string>() { "ms-appx:///Assets/time.jpg",
+                "ms-appx:///Assets/time.jpg" ,
+                "ms-appx:///Assets/time.jpg" ,
+                "ms-appx:///Assets/time.jpg" };
 
             var items = new Dictionary<string, List<string>>() { { "Hello", list }, { "Some", list }, { "To", list } };   
             var groups = from c in items
